@@ -189,7 +189,7 @@ def main():
   args = parser.parse_args()
 
   run(args.model, args.tracker, args.classifier, args.label_file,
-      int(args.cameraId), args.frameWidth, args.frameHeight)
+      int(args.cameraId), int(args.frameWidth), int(args.frameHeight))
 
 
 if __name__ == '__main__':
